@@ -1,0 +1,162 @@
+.clear {
+  clear: both;
+}
+
+body {
+	margin: 0 auto; /*automotico (pag da intrnet nos fav)*/
+	background:url("images/margaridas.jpg");
+}
+
+#centro {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a:link {
+		text-decoration: none; /*sem sublinhadozin*/
+}
+
+h2 {
+	font-size: 25px;
+	font-family: Because I am Happy Regular;
+	color: #b871aa;
+   }
+
+h1 {
+	color: #0099CC;
+}
+
+p {
+	font-family: Pretty Girls Script Demo;
+	font-size: 15px;
+}
+
+
+em {
+	font-weight: bold;
+	color: #b871aa;
+}
+
+
+#cbclh {
+	padding: 15px 0px 15px 20px;
+}
+
+#barra {
+	height: 30px;
+	background: url(images/menu1.gif) repeat-x; /*usar esse repet smp que quiser colocar na horizontal*/
+}
+
+
+#barra li {
+	display: inline-block;
+
+	padding-top: 5px;
+	color: #666666;
+}
+#barra li a:link, #barra li a:visited {
+	color: #FFFFFF;
+	font-size: 1.1em;
+	padding: 5px 43px 0 43px;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+#barra li a:hover, #barra li a:active {
+	text-decoration: none;
+	color: #99CC00;
+	font-size: 1.1em;
+	padding: 5px 43px 0 43px;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+#edito {
+	height: 400px;
+	background: url(images/tal.png) top right no-repeat;
+	background-color: #8eaa9a;
+  border: 5px solid #5c8868;
+}
+
+#edito h2, #edito p {
+	padding-top: 20px;
+	padding-right: 100px;
+	padding-left: 20px;
+}
+
+#edito p {
+	width: 400px;
+}
+
+#edito a:link, #edito a:visited {
+	color: #FFFFFF;
+	font-size: 16px;
+}
+
+#edito a:hover, #edito a:active {
+	text-decoration: none;
+	color: #000000;
+	font-size: 16px;
+}
+
+#botaoI {
+	display: block; /*ainda não, por ultimo */
+	height: 25px;
+	width: 150px;
+	background: url(images/large_button1.gif) ; /*imagem do botao Inscre*/
+	text-align: center;
+	margin-left: 100px;
+	font-weight: bold;
+	margin-top:100px;
+
+}
+#cima {
+	height: 20px;
+	background : url(image/toal1.gif) repeat-x;
+	    }
+
+#baixo {
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1000px;
+  width: 80%;
+}
+#esquerda, #barrinha, #direita {
+	background-color:  white;
+	height: 100%;
+  margin: 20px;
+  border: #000000 solid 1px;
+}
+
+#baixo div {
+	float:left;
+	width: 215px;
+	padding: 0 10px 0 30px;
+}
+
+#baixo div p {
+	padding-top: 10px;
+}
+
+
+/*terminar baixo na terça*/
+#baixo div p a:link, #baixo div p a:visited, #baixo div p a:hover, #content div p a:active {
+	color: #333333;
+}
+
+#baixo div li a:link, #baixo div li a:visited, #baixo div li a:active, #baixo div li a:hover {
+	color: #000000;
+	font-weight: bold;
+}
+
+
+
+#baixo div ul {
+	font-size: 0.8em;
+	margin-left: 20px;
+}
+
+#baixo div li {
+	padding: 8px 0 0 0;
+}
